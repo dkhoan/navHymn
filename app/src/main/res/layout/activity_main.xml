@@ -21,7 +21,7 @@ tools:context=".MainActivity">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mục Lục Newsong"
+            android:text="Mục Lục Thánh Ca"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal"
             style="@style/TitleText"
@@ -32,7 +32,7 @@ tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/title_group1"
-            android:text="Volumn 1"
+            android:text="Thờ phượng Cha"
             android:clickable="true"
             android:layout_gravity="left"
             style="@style/TitleIndex"
@@ -239,7 +239,7 @@ tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/title_group2"
-            android:text="Volumn 2"
+            android:text="Ngợi khen Chúa"
             android:clickable="true"
             android:layout_gravity="left"
             style="@style/TitleIndex"
@@ -603,17 +603,6 @@ tools:context=".MainActivity">
             style="@style/BtnText"/>
 
     </GridLayout>
-
-        <TextView
-            android:id="@+id/title_all"
-            android:text="Xem tất cả"
-            android:clickable="true"
-            android:layout_gravity="left"
-            style="@style/TitleIndex"
-            android:layout_marginTop="20dp"
-            android:onClick="toggle_all"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
         <TextView
             android:layout_width="wrap_content"
